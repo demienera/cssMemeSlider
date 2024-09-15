@@ -9,56 +9,40 @@
   <title>cssMemeSlider</title>
 </head>
 <body>
-<div class="container">
+<main class="container">
   <input type="radio" name="slider" id="slide1" checked>
   <input type="radio" name="slider" id="slide2">
   <input type="radio" name="slider" id="slide3">
   <input type="radio" name="slider" id="slide4">
 
   <div class="slider">
-    <div class="slides">
-      <div class="slide">
-        <figure>
-          <img src="image/1.jpeg" alt="Will Smith is drinking tea">
-          <figcaption class="slide-caption">Will Smith is drinking tea</figcaption>
-        </figure>
+    <div class="slider__wrapper">
+      <div class="slider__blocks">
+        <img class="slide" src="image/1.jpeg" alt="Will Smith is drinking tea">
+        <img class="slide" src="image/2.jpg" alt="Sean Bean Boromir Meme">
+        <img class="slide" src="image/3.jpg" alt="Meme come on tell me">
+        <img class="slide" src="image/4.jpg" alt="The Sullen Cat">
       </div>
-      <div class="slide">
-        <figure>
-          <img src="image/2.jpg" alt="Sean Bean Boromir Meme">
-          <figcaption class="slide-caption">Sean Bean Boromir Meme</figcaption>
-        </figure>
+    </div>
+
+    <div class="control-info">
+      <div class="controls">
+        <label for="slide1" class="control"></label>
+        <label for="slide2" class="control"></label>
+        <label for="slide3" class="control"></label>
+        <label for="slide4" class="control"></label>
       </div>
-      <div class="slide">
-        <figure>
-          <img src="image/3.jpg" alt="Meme come on tell me">
-          <figcaption class="slide-caption">Meme come on tell me</figcaption>
-        </figure>
-      </div>
-      <div class="slide">
-        <figure>
-          <img src="image/4.jpg" alt="The Sullen Cat">
-          <figcaption class="slide-caption">The Sullen Cat</figcaption>
-        </figure>
+
+      <div class="slide-caption">
+        <div class="slide-caption__wrapper">
+          <span>Will Smith is drinking tea</span>
+          <span>Sean Bean Boromir Meme</span>
+          <span>Meme come on tell me</span>
+          <span>The Sullen Cat</span>
+        </div>
       </div>
     </div>
   </div>
-
-  <div class="controls">
-    <div class="control">
-      <label for="slide1"></label>
-    </div>
-    <div class="control">
-      <label for="slide2"></label>
-    </div>
-    <div class="control">
-      <label for="slide3"></label>
-    </div>
-    <div class="control">
-      <label for="slide4"></label>
-    </div>
-  </div>
-</div>
-
+</main>
 </body>
 </html>
